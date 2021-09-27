@@ -15,6 +15,7 @@ header {
 
 .nav-li {
     color: #3D37F1;
+    margin-right: 10px;
 }
 .web-text {
     color: #3D37F1;
@@ -22,8 +23,7 @@ header {
     font-family: lato;
 }
 .nav-ul {
-    display: flex;
-    justify-content: space-around;
+    
     width: 600px;
     font-family: lato;
 }
@@ -44,9 +44,12 @@ section {
     width: 500px;
 }
 
+
+
 .img {
     width: 500px;
 }
+
 
 h1 {
     font-size: 60px;
@@ -63,6 +66,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
+   
 }
 
 .blue-block {
@@ -97,6 +101,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-content: center;
+   
 }
 
 .second-section-title {
@@ -135,7 +140,7 @@ h1 {
 }
 
 .div-block {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -150,6 +155,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     color: white;
+    
 }
 
 .block:nth-child(2) {
@@ -232,13 +238,24 @@ h1 {
 }
 
 .div-block1 {
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    
 }
 
 p {
     font-family: lato;
 }
 
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+   
+}
+
+.burger-bar {
+    display: none;
+}

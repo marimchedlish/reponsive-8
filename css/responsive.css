@@ -12,6 +12,7 @@
         width: 100%;
         align-items: center;
 }
+}
 
 @media (max-width: 1280px) {
     .nav-ul {
@@ -21,12 +22,13 @@
         font-family: lato;
         font-size: 13px;
 }
+}
 
 @media (max-width: 1000px) {
     .div-block {
-        flex-wrap: wrap;
-        width: 100%;
+        direction: flex;
         flex-direction: column;
+        width: 100%;
         align-items: center;
     }
 
@@ -58,15 +60,16 @@
     .block {
         margin-top: 10px;
     }
+
+    .div-block1 {
+        margin-top: 0%;
+    }
     
     .block1 {
         margin-top: 10px;
     }
 
-    .div-block1 {
-        margin-top: 0px;
-    }
-
+    
 }
 
 @media (max-width: 900px) {

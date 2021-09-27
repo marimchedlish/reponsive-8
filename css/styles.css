@@ -26,6 +26,8 @@ header {
     
     width: 600px;
     font-family: lato;
+    display: flex;
+    justify-content: space-around;
 }
 
 section {
@@ -139,12 +141,7 @@ h1 {
     font-family: lato;
 }
 
-.div-block {
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
+
 
 .block {
     background-color: #FBBA77;
@@ -243,6 +240,13 @@ h1 {
     justify-content: space-between;
     margin-top: 50px;
     
+}
+
+.div-block {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 p {
